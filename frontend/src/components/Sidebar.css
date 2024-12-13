@@ -1,0 +1,54 @@
+.sidebar-main {
+    display: flex;
+    height: 100%;
+    padding-left: 60px;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.sidebar {
+    min-width: 10%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+  }
+  
+  .sidebar span {
+    color: white;
+    padding: 16px;
+    text-underline-offset: 4px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar span:hover {
+    border: 0.1px solid blue;
+    background-color: light-blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    div.content {
+      margin-left: 0;
+      padding: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar span {
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  

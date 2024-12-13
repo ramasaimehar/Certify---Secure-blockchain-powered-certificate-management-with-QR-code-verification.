@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+.facts-section {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 1000; 
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  z-index: 10;
+}
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  z-index: -1; 
+  opacity: 1;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scroll-content {
+  height: 200vh;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+}
+
+.foreground-images img {
+  border: 2px solid white;
+  width: 500px;
+  margin: 10px;
+}
+
+.facts-description {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.fact-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  height: 150px;
+  width: 300px;
+}
+
+.fact-item h3 {
+  font-size: 40px;
+  color: #00c853;
+  margin-bottom: 10px;
+}
+
+.fact-item p {
+  font-size: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin: 0;
+  font-family:Impact,'Arial Narrow Bold', sans-serif ;
+}
+
+
+.facts-section::after {
+  content: '';
+  background-image: url('https://image.slidesdocs.com/responsive-images/background/navigating-the-internet-in-3d-a-laptops-web-search-journey-powerpoint-background_060d70845f__960_540.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.foreground-images {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.foreground-images img {
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.foreground-images img:hover {
+  transform: translateY(-10px);
+}
+
+.forcolor {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.g_circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  height: 1100px;
+  width: auto;
+}
+
+.g_circle-content {
+  margin-bottom: 20px;
+}
+
+.e_circle-number img {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin-top: 250px;
+}
+
+.p_14 {
+  position: absolute;
+  margin-top: 450px;
+  font-size: 30px;
+  max-width: 550px;
+  line-height: 1.5;
+  margin-left: -250px;
+  color: white;
+}
+
+.g_people-circle {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+}
+
+.img_outer-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease-out;
+}
+
+.img_inner-circle {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  transition: transform 0.2s ease-out;
+}
+
+.img_circle {
+  width: 100%;
+  height: 100%;
+}

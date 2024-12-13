@@ -1,0 +1,16 @@
+.hero{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.carousel-item{
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-item .container{
+    border: 2px solid black;
+    margin-top: 400px;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+}

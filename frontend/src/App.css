@@ -1,0 +1,19 @@
+.animate-on-load {
+    animation-duration: 1s; /* Adjust duration */
+    animation-delay: 0.3s; /* Add delay if needed */
+  }
+
+  
+.input-box {
+    width: 40%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 2px;
+}
+
