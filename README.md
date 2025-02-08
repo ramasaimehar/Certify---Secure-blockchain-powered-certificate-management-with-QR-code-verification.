@@ -48,7 +48,6 @@ Visit the live application: [Certificate Generation and Verification System](htt
 
 --- 
 
-This includes all key results and the link to your project. Let me know if you'd like more refinements!
 
 ## Use Cases:
 - **Corporate Programs:** Employee training certifications.
